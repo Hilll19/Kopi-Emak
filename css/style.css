@@ -90,6 +90,13 @@ body{
     #hamburger-menu {
         display: inline-block;
     }
+    .navbar .navbar-nav a {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: white;
+        width: 30rem;
+    }
 }
 /* Mobile Phone */
 @media (max-width: 450px) {
