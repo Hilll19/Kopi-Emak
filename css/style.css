@@ -71,7 +71,7 @@ body{
 }
 
 #hamburger-menu {
-    display: none;
+    display: inline-block;
 }
 
 /* Media Queree */
@@ -83,7 +83,7 @@ body{
     }
 }
 /* Tablet */
-@media (max-width: 1358px) {
+@media (max-width: 758px) {
     html{
         font-size: 62%;
     }
@@ -96,6 +96,10 @@ body{
         right: -100%;
         background-color: white;
         width: 30rem;
+        height: 100vh;
+    }
+    .navbar .navbar-nav.active {
+        right: 0;
     }
 }
 /* Mobile Phone */
