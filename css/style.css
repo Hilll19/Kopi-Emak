@@ -15,7 +15,7 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 3000px;
+    min-height: 2500px;
 }
 
 /* Navbar */
@@ -175,10 +175,16 @@ body{
     text-align: center;
     max-width: 30rem;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     font-size: 1.4rem;
     font-weight: 100;
     line-height: 1.6;
+}
+.menu .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
 }
 
 
