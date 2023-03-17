@@ -15,7 +15,7 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 2500px;
+    min-height: 6000px;
 }
 
 /* Navbar */
@@ -135,12 +135,12 @@ body{
 .about {
     padding: 1.4rem 7%;
 }
-.about h2, .menu h2 {
+.about h2, .menu h2, .contact h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 3rem;
 }
-.about h2 span, .menu h2 span {
+.about h2 span, .menu h2 span, .contact h2 span {
     color: var(--primary);
 }
 .about .row {
@@ -168,6 +168,9 @@ body{
 }
 
 /* Menu Section */
+.menu {
+    padding: 1.4rem 7%;
+}
 .menu h2 {
     margin-bottom: 1rem;
 }
@@ -185,6 +188,53 @@ body{
     flex-wrap: wrap;
     margin-top: 2rem;
     justify-content: center;
+}
+.menu .row .menu-card {
+    text-align: center;
+    padding-bottom: 3rem;
+
+}
+.menu .row .menu-card img {
+    border-radius: 50%;
+    width: 80%;
+}
+.menu .row .menu-card .menu-card-tittle {
+    margin-top: 1.5rem auto 0.5rem;
+}
+
+/* Contact Section */
+.contact p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+.contact .row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #222;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+.contact .row form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+.contact .row form .input-group {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    background-color: var(--bg);
+    border: 1px solid #eee;
 }
 
 
